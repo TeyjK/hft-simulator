@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+.env
+.venv/
+data/
+*.csv
+
+# VSCode
+.vscode/
+
+# OS & misc
+.DS_Store
+Thumbs.db
