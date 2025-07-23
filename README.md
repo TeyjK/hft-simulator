@@ -1,1 +1,1 @@
-"A high-frequency trading simulator with a custom order matching engine, trading strategies, and backtesting using real market data."
+A high-frequency trading simulator with a custom order matching engine, trading strategies, and backtesting using real market data.

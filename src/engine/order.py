@@ -9,9 +9,9 @@ class Order:
     price: float
     quantity: int
 
-    def __init__(self, order_id, side, price, quantity):
+    def __init__(self, order_id, side, price, quantity, timestamp=None):
         self.order_id = order_id
-        self.timestamp = time.time()
+        self.timestamp = timestamp if timestamp is not None else time.time()
         self.side = side.lower()
         self.price = price
         self.quantity = quantity
